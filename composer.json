@@ -1,0 +1,19 @@
+{
+    "name": "fernet/captcha",
+    "description": "Google No CAPTCHA reCAPTCHA plugin for Fernet",
+    "type": "library",
+    "require": {
+        "fernet/framework": "@dev",
+        "anhskohbo/no-captcha": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {"CaptchaFernet\\": "src"}
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rodrigo 'Albo' Arce",
+            "email": "albo@pragmore.com"
+        }
+    ]
+}
